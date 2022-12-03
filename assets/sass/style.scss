@@ -4,6 +4,10 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+hr{
+  background-color: gray;
+ }
+
 .contenedor{
   width: 100%;
   display: flex;
@@ -12,9 +16,9 @@
   flex-direction: column;
   margin: 2%;
   &__titulo{
-
     width: 90%;
     text-align: center;
+    margin-right: 10%;
     &__text{
     background: linear-gradient(90deg, rgba(242,2,229,1) 0%, rgba(141,58,173,1) 51%, rgba(103,12,128,1) 90%);
     -webkit-background-clip: text;
@@ -70,4 +74,79 @@
 .medio{
   width: 20%;
   margin: 2%;
+}
+
+.card{
+  width: 90%;
+  padding: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+ 
+  &__inicio{
+    color: white;
+    width: 25%;
+    min-width: 200px;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(231,73,236);
+    padding: 9% 0;
+    border-radius: 20px 0 0 20px;
+  //  box-shadow: -4px 0 4px 4px rgba(128, 128, 128, 0.218);
+background: linear-gradient(90deg, rgba(231,73,236,1) 2%, rgba(189,65,192,1) 17%, rgba(128,0,207,1) 59%, rgba(22,3,201,1) 100%);
+    &__img{
+      width: 30%;
+    }
+  }
+
+  &__info{
+    width: 50%;
+    min-width: 300px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    padding: 2% 5%;
+    font-size: 100%;
+    height: 90%;
+
+  
+    &__cont{
+      padding-top: 5%;
+    }
+
+    &__cont2{
+      padding: 5% 0;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  &__sobremi{
+    &__parrafo{
+      color: gray;
+    }
+  }
+}
+
+.info{
+  &__correo{
+    &__titulo{
+
+    }
+    &__parrafo{
+      color: gray;
+    }
+  }
+  &__tel{
+
+    &__parrafo{
+      color: gray;
+    }
+  }
 }

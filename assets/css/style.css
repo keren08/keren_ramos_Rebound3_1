@@ -4,6 +4,10 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+hr {
+  background-color: gray;
+}
+
 .contenedor {
   width: 100%;
   display: flex;
@@ -15,6 +19,7 @@
 .contenedor__titulo {
   width: 90%;
   text-align: center;
+  margin-right: 10%;
 }
 .contenedor__titulo__text {
   background: linear-gradient(90deg, rgb(242, 2, 229) 0%, rgb(141, 58, 173) 51%, rgb(103, 12, 128) 90%);
@@ -66,6 +71,61 @@
 .medio {
   width: 20%;
   margin: 2%;
+}
+
+.card {
+  width: 90%;
+  padding: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card__inicio {
+  color: white;
+  width: 25%;
+  min-width: 200px;
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgb(231, 73, 236);
+  padding: 9% 0;
+  border-radius: 20px 0 0 20px;
+  background: linear-gradient(90deg, rgb(231, 73, 236) 2%, rgb(189, 65, 192) 17%, rgb(128, 0, 207) 59%, rgb(22, 3, 201) 100%);
+}
+.card__inicio__img {
+  width: 30%;
+}
+.card__info {
+  width: 50%;
+  min-width: 300px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+  padding: 2% 5%;
+  font-size: 100%;
+  height: 90%;
+}
+.card__info__cont {
+  padding-top: 5%;
+}
+.card__info__cont2 {
+  padding: 5% 0;
+  display: flex;
+  justify-content: space-between;
+}
+.card__sobremi__parrafo {
+  color: gray;
+}
+
+.info__correo__parrafo {
+  color: gray;
+}
+.info__tel__parrafo {
+  color: gray;
 }
 
 /*# sourceMappingURL=style.css.map */

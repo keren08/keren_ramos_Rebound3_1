@@ -13,30 +13,30 @@
         <h1 class="contenedor__titulo__text">INSCRIBETE</h1>
       </div>
 
-      <form action="" class="form">
+      <form action="" class="form" id="form">
         <section class="form__item small">
           <label class="form__item__titulo" for="nombre">Nombre</label>
-          <input class="form__item__input" type="text" />
+          <input class="form__item__input" id="nombre" type="text" required />
         </section>
 
         <section class="form__item small">
           <label class="form__item__titulo" for="corre">Correo</label>
-          <input class="form__item__input" type="email" />
+          <input class="form__item__input" id="correo" type="email" required />
         </section>
 
         <section class="form__item small">
           <label class="form__item__titulo" for="trabajo">Trabajo</label>
-          <input class="form__item__input" type="text" />
+          <input class="form__item__input" id="trabajo" type="text" required />
         </section>
 
         <section class="form__item small">
           <label class="form__item__titulo" for="telefono">Telefono</label>
-          <input class="form__item__input" type="text" />
+          <input class="form__item__input" id="telefono" type="text" required />
         </section>
 
         <section class="form__item large">
           <label class="form__item__titulo" for="sobreti">Sobre Ti</label>
-          <input class="form__item__input" type="text" />
+          <input class="form__item__input" id="sobreti" type="text" required />
         </section>
 
         <section class="form__item medio">
@@ -44,5 +44,8 @@
         </section>
       </form>
     </main>
+
+    <section class="card" id="card"></section>
+    <script src="js/index.js"></script>
   </body>
 </html>
